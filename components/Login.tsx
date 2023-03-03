@@ -7,7 +7,8 @@ function Login() {
   return (
     <div className="bg-[#11A37F] h-screen flex flex-col items-center justify-center text-center">
       <Image
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJFtbY8WEBRW-UeEzdkqCrXGICZq3xHVszBFIcr02Kw&s"
+        //src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwJFtbY8WEBRW-UeEzdkqCrXGICZq3xHVszBFIcr02Kw&s"
+        src="https://links.papareact.com/89k"
         width={300}
         height={300}
         alt="logo"
