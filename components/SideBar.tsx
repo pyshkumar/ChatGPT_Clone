@@ -42,7 +42,8 @@ function SideBar() {
       {session && (
         <img
           onClick={() => signOut()}
-          src={session.user?.image!}
+          // src={session.user?.image!} ->error loading the user image.
+          src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_960_720.png"
           alt="Profile picture"
           className="h-12 w-12 rounded-full cursor-pointer ml-2 mx-auto mb-2
           hover:opacity-50 "
